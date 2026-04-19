@@ -26,6 +26,7 @@
                 </header>
             </div>
         </aside>
+
         <main>
             <div class="main-container">
                 <header>
@@ -56,11 +57,11 @@
                             </div>
 
                             <div class="input-wrapper">
-                                <label for="">Tipo</label>
+                                <label>Tipo</label>
 
                                 <div id="event-type-radio">
                                     <div class="event-type-radio-inner">
-                                        <input type="radio" name="event-type" value="in-person" id="in-person">
+                                        <input type="radio" name="event-type" value="in-person" id="in-person" checked>
                                         <label for="in-person">
                                             <div id="radio-img-in-person"></div>
                                             <span>Presencial</span>
@@ -75,7 +76,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="input-wrapper">
                                 <label for="place">Local</label>
                                 <input type="url" name="place" id="place" placeholder="Link ou endereço">
@@ -96,11 +97,11 @@
                         </legend>
 
                         <div class="radio-wrapper">
-                            <label for="">Cor principal</label>
+                            <label>Cor principal</label>
 
                             <div id="main-color-radio">
-                                <div class="color-event-type-radio-inner" style="--main-color-radio: #59B2FF;">
-                                    <input type="radio" name="main-color" value="#59B2FF" id="main-color">
+                                <div class="color-radio-inner" style="--main-color-radio: #59B2FF;">
+                                    <input type="radio" name="main-color" value="#59B2FF" id="main-color" checked>
                                     <div class="color-option"></div>
                                 </div>
                                 <div class="color-radio-inner" style="--main-color-radio: #6A59FF;">
@@ -145,6 +146,113 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="radio-wrapper">
+                            <label>Tema do evento</label>
+
+                            <div id="event-theme-radio">
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Aniversário" id="theme-niver" checked>
+                                    <label for="theme-niver">
+                                        <img src="./assets/themes/img-aniversario.svg"
+                                            alt="imagem de festa de aniversario">
+                                        <span>Aniversário</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Infantil" id="theme-infant">
+                                    <label for="theme-infant">
+                                        <img src="./assets/themes/img-infantil.svg" alt="imagem de festa infantil">
+                                        <span>Infantil</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Formatura" id="theme-formatura">
+                                    <label for="theme-formatura">
+                                        <img src="./assets/themes/img-formatura.svg" alt="imagem de formatura">
+                                        <span>Formatura</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Casamento" id="theme-niver">
+                                    <label for="theme-casamento">
+                                        <img src="./assets/themes/img-casamento.svg" alt="imagem de alianças">
+                                        <span>Casamento</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Chá de bebê" id="theme-bebe">
+                                    <label for="theme-bebe">
+                                        <img src="./assets/themes/img-cha.svg" alt="imagem de fralda">
+                                        <span>Chá de bebê</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Chá de Panela" id="theme-cozinha">
+                                    <label for="theme-cozinha">
+                                        <img src="./assets/themes/img-cozinha.svg" alt="imagem de cozinha">
+                                        <span>Chá de Panela</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Carnaval" id="theme-carnaval">
+                                    <label for="theme-carnaval">
+                                        <img src="./assets/themes/img-carnaval.svg" alt="imagem de carnaval">
+                                        <span>Carnaval</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Páscoa" id="theme-pascoa">
+                                    <label for="theme-pascoa">
+                                        <img src="./assets/themes/img-pascoa.svg" alt="imagem de pascoa">
+                                        <span>Páscoa</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="São João" id="theme-junino">
+                                    <label for="theme-junino">
+                                        <img src="./assets/themes/img-junina.svg" alt="imagem de bandeiras juninas">
+                                        <span>São João</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Halloween" id="theme-halloween">
+                                    <label for="theme-halloween">
+                                        <img src="./assets/themes/img-hallowen.svg" alt="imagem de halloween">
+                                        <span>Halloween</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Natal" id="theme-natal">
+                                    <label for="theme-natal">
+                                        <img src="./assets/themes/img-natal.svg" alt="imagem de presente">
+                                        <span>Natal</span>
+                                    </label>
+                                </div>
+                                <div class="theme-radio-inner">
+                                    <input type="radio" name="event-theme" value="Outro" id="theme-outro">
+                                    <label for="theme-outro">
+                                        <img src="./assets/themes/img-outro.svg" alt="imagem de festa">
+                                        <span>Outro</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="style-switch-container">
+                            <label>Estilo</label>
+
+                            <div id="switch-wrapper">
+                                <input type="radio" name="style" id="dark" value="dark" checked>
+                                <input type="radio" name="style" id="light" value="light">
+
+                                <div class="switch-pill">
+                                    <span class="ball"></span>
+                                </div>
+
+                                <span class="style-text"></span>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
@@ -152,4 +260,4 @@
     </div>
 </body>
 
-</html>
+</html>festa de aniversar
