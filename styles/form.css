@@ -6,9 +6,6 @@ form {
 
 fieldset {
     border: none;
-}
-
-fieldset+fieldset {
     margin-bottom: 3rem;
 }
 

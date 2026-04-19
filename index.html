@@ -58,16 +58,15 @@
                             <div class="input-wrapper">
                                 <label for="">Tipo</label>
 
-                                <div id="event-type-radio" class="radio-wrapper">
-                                    <div class="radio-inner">
+                                <div id="event-type-radio">
+                                    <div class="event-type-radio-inner">
                                         <input type="radio" name="event-type" value="in-person" id="in-person">
                                         <label for="in-person">
                                             <div id="radio-img-in-person"></div>
                                             <span>Presencial</span>
                                         </label>
                                     </div>
-
-                                    <div class="radio-inner">
+                                    <div class="event-type-radio-inner">
                                         <input type="radio" name="event-type" value="online" id="online">
                                         <label for="online">
                                             <div id="radio-img-online"></div>
@@ -76,6 +75,7 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="input-wrapper">
                                 <label for="place">Local</label>
                                 <input type="url" name="place" id="place" placeholder="Link ou endereço">
@@ -86,6 +86,64 @@
                             <label for="description">Descrição</label>
                             <textarea name="description" id="description" cols="30" rows="5"
                                 placeholder="Escreva sobre os detalhes do evento."></textarea>
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="personalization">
+                        <legend>
+                            <img src="./assets/icons/paintbrush-vertical.svg" alt="icone de pincel">
+                            Personalização
+                        </legend>
+
+                        <div class="radio-wrapper">
+                            <label for="">Cor principal</label>
+
+                            <div id="main-color-radio">
+                                <div class="color-event-type-radio-inner" style="--main-color-radio: #59B2FF;">
+                                    <input type="radio" name="main-color" value="#59B2FF" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #6A59FF;">
+                                    <input type="radio" name="main-color" value="#6A59FF" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #B259FF;">
+                                    <input type="radio" name="main-color" value="#B259FF" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #FF59F9;">
+                                    <input type="radio" name="main-color" value="#FF59F9" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #FF598B;">
+                                    <input type="radio" name="main-color" value="#FF598B" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #FF5959;">
+                                    <input type="radio" name="main-color" value="#FF5959" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #FF8B59;">
+                                    <input type="radio" name="main-color" value="#FF8B59" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #FFCD59;">
+                                    <input type="radio" name="main-color" value="#FFCD59" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #E1FF59;">
+                                    <input type="radio" name="main-color" value="#E1FF59" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #59FF91;">
+                                    <input type="radio" name="main-color" value="#59FF91" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                                <div class="color-radio-inner" style="--main-color-radio: #59FFF9;">
+                                    <input type="radio" name="main-color" value="#59FFF9" id="main-color">
+                                    <div class="color-option"></div>
+                                </div>
+                            </div>
                         </div>
                     </fieldset>
                 </form>
