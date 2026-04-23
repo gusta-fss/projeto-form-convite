@@ -1,19 +1,16 @@
 #app {
     display: grid;
-    grid-template-columns: 33.125% 66.875%;
-
+    grid-template-columns: 33.5% 66.5%;
     height: 100vh;
     overflow: hidden;
 }
 
 main {
-    background-color: var(--shape-body);
     overflow: auto;
-
+    background-color: var(--shape-body);
     padding: 5rem 8.125rem;
     margin: 1rem 1rem 1rem .5rem;
     border-radius: .75rem;
-
     scrollbar-width: none;
     -ms-overflow-style: none;
 
@@ -35,25 +32,18 @@ aside {
     & header {
         position: absolute;
 
-        & #icon {
-            height: 3rem;
-            margin-bottom: 1rem;
-        }
-
         & #logo {
-            height: 2.5rem;
-            margin-bottom: 1.125rem;
+            height: 20%;
         }
     }
 
     &::before {
         content: "";
+        position: absolute;
+        inset: 0;
         background-image: url(../assets/Background.svg);
         background-size: cover;
         background-position: center;
         border-radius: .75rem;
-
-        position: absolute;
-        inset: 0;
     }
 }
