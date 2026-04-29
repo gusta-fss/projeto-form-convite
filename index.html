@@ -163,7 +163,8 @@
                                 <div class="theme-radio-inner">
                                     <input type="radio" name="event-theme" value="Formatura" id="theme-graduation">
                                     <label for="theme-graduation">
-                                        <img src="./assets/themes/img-graduation.svg" alt="imagem de festa de formatura">
+                                        <img src="./assets/themes/img-graduation.svg"
+                                            alt="imagem de festa de formatura">
                                         <span>Formatura</span>
                                     </label>
                                 </div>
@@ -182,7 +183,8 @@
                                     </label>
                                 </div>
                                 <div class="theme-radio-inner">
-                                    <input type="radio" name="event-theme" value="Chá de Panela" id="theme-bridalshower">
+                                    <input type="radio" name="event-theme" value="Chá de Panela"
+                                        id="theme-bridalshower">
                                     <label for="theme-bridalshower">
                                         <img src="./assets/themes/img-bridalshower.svg" alt="imagem de cozinha">
                                         <span>Chá de Panela</span>
@@ -233,15 +235,30 @@
                             </div>
                         </div>
 
-                        <div class="style-switch-container">
-                            <label>Estilo</label>
-                            <div id="switch-wrapper">
-                                <input type="radio" name="style" id="dark" value="dark" checked>
-                                <input type="radio" name="style" id="light" value="light">
-                                <div class="switch-pill">
-                                    <div class="ball"></div>
+
+                        <div class="grid-personalization">
+                            <div class="style-switch-container">
+                                <label>Estilo</label>
+                                <div id="switch-wrapper">
+                                    <input type="radio" name="style" id="dark" value="dark" checked>
+                                    <input type="radio" name="style" id="light" value="light">
+                                    <div class="switch-pill">
+                                        <div class="ball"></div>
+                                    </div>
+                                    <span class="style-text"></span>
                                 </div>
-                                <span class="style-text"></span>
+                            </div>
+
+                            <div class="input-file-wrapper">
+                                <label for="cover">Foto de capa</label>
+                                <div class="flex gap-.75 align-center">
+                                    <div class="input-file-button">
+                                        <input type="file" name="cover" id="cover" accept="image/png" required>
+                                        <img src="assets/icons/upload.svg" alt="">
+                                        <span>Selecionar</span>
+                                    </div>
+                                    <span class="input-file-text"></span>
+                                </div>
                             </div>
                         </div>
                     </fieldset>

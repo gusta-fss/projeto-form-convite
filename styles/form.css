@@ -23,9 +23,16 @@ legend {
     }
 }
 
-.grid-info {
+.grid-info, .grid-personalization {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+}
+
+.grid-info {
+    grid-template-columns: 1fr 1fr;
     margin: 1rem 0;
+}
+
+.grid-personalization {
+    grid-template-columns: auto 1fr;
 }

@@ -68,3 +68,15 @@ img {
     display: block;
     object-fit: cover;
 }
+
+.flex {
+    display: flex;
+}
+
+.gap-\.75 {
+    gap: .75rem;
+}
+
+.align-center {
+    align-items: center;
+}
