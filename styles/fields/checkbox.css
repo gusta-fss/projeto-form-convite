@@ -8,8 +8,9 @@
     gap: .75rem;
     align-items: flex-start;
 
-    & span {
-        color: var(--text-highlight);
+    & a {
+        color: var(--brand-light);
+        
     }
 }
 
