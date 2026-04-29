@@ -36,3 +36,26 @@ legend {
 .grid-personalization {
     grid-template-columns: auto 1fr;
 }
+
+.btn {
+    display: flex;
+    gap: .75rem;
+    align-items: center;
+    padding: .875rem 1.25rem;
+    border-radius: .5rem;
+    border: none;
+    background: var(--brand-dark);
+    font: var(--body-md);
+    color: var(--text-heading);
+    margin-left: auto;
+
+    & img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: var(--brand-mid);
+    }
+}
