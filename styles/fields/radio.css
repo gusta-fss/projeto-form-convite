@@ -77,7 +77,6 @@
 #main-color-radio {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: .75rem;
 
     & .color-radio-inner,
@@ -113,7 +112,6 @@
     display: grid;
     grid-template-columns: repeat(4, 8.375rem);
     gap: .5rem;
-    justify-self: center;
 
     & .theme-radio-inner {
         width: 8.375rem;
