@@ -36,19 +36,3 @@ legend {
 .grid-personalization {
     grid-template-columns: auto 1fr;
 }
-
-.error {
-    display: flex;
-    gap: .5rem;
-    margin-top: .5rem;
-
-    & img {
-        width: 1rem;
-        height: 1rem;
-    }
-
-    & span {
-        font: 400 .75rem var(--font-family-open);
-        color: var(--feedback-danger);
-    }
-}
