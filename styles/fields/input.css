@@ -72,6 +72,8 @@ input::-webkit-datetime-edit-ampm-field {
 
     & .input-file-text::after {
         content: "Nenhum arquivo selecionado";
+        font: 400 1rem var(--font-family-open);
+        color: var(--input-placeholder);
     }
 
     &:has(input:valid) .input-file-text::after {
