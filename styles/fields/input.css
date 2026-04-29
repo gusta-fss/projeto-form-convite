@@ -76,7 +76,14 @@ input::-webkit-datetime-edit-ampm-field {
         color: var(--input-placeholder);
     }
 
-    &:has(input:valid) .input-file-text::after {
-        content: "image.png";
+    &:has(input:valid) {
+        & .input-file-text::after {
+            content: "image.png";
+            color: var(--text-body);
+        }
+
+        & .error {
+            display: none;
+        }
     }
 }
